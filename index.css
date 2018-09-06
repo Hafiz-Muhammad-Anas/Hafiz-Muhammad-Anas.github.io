@@ -1,0 +1,59 @@
+body{
+	border: 1px solid white;
+	padding: 20px;
+	max-width: 700px;
+	width: 80%;
+	margin: 20px auto;
+	font-family: Source Sans Pro;
+	background-image: url("image.jpg");
+	background-size: cover;
+}
+ .header{
+ 	text-align: center;
+ }
+  h4{
+  	margin-bottom: 0px;
+  }
+
+  h2{
+  	border-left: 5px solid white;
+  	 padding-left: 5px;
+  }
+  .info{
+  	float: right;
+  }
+  
+  i{
+  	padding-left: 10px;
+  	float: right;
+  }
+  img{
+  	height: 120px;
+  	width: 120px;
+  	border-radius: 350%;
+  }
+
+  p{
+  	text-align: justify;
+  }
+
+@keyframes example {
+    0% {color: black;}
+    25% {color: blue;}
+    50% {color: red;}
+    75% {color: green;}
+    100% {color: blue;}
+}
+
+/* The element to apply the animation to */
+i {
+    
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.tt{
+	height: 40px;
+	width: 40px;
+}
