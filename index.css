@@ -5,8 +5,21 @@ body{
 	width: 80%;
 	margin: 20px auto;
 	font-family: Source Sans Pro;
-	background-image: url("image.jpg");
+	/*background-image: url("image.jpg");*/
 	background-size: cover;
+	animation-name: Background;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@keyframes Background {
+    0% {background-image: url("image.jpg");}
+    25% {background-image: url("check.jpg");}
+    50% {background-image: url("613.jpg");}
+    75% {background-image: url("616.jpg");}
+    100% {background-image: url("615.jpg");}
 }
  .header{
  	text-align: center;
