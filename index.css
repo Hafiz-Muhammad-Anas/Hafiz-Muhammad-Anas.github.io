@@ -16,10 +16,10 @@ body{
 
 @keyframes Background {
     0% {background-image: url("image.jpg");}
-    25% {background-image: url("check.jpg");}
-    50% {background-image: url("613.jpg");}
-    75% {background-image: url("616.jpg");}
-    100% {background-image: url("615.jpg");}
+    50% {background-image: url("check.jpg");}
+    100% {background-image: url("613.jpg");}
+    /*75% {background-image: url("616.jpg");}*/
+    /*100% {background-image: url("615.jpg");}*/
 }
  .header{
  	text-align: center;
