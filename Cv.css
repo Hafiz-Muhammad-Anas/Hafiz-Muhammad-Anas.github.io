@@ -1,0 +1,81 @@
+.subBody{
+	border: 1px solid white;
+	padding: 20px;
+	max-width: 700px;
+	width: 80%;
+	margin: 20px auto;
+	font-family: Source Sans Pro;
+	background-image: url("630.jpg");
+	background-size: cover;
+	/*animation-name: Background;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;*/
+}
+body{
+  background: url("631.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+@keyframes Background {
+    0% {background-image: url("image.jpg");}
+    50% {background-image: url("check.jpg");}
+    100% {background-image: url("613.jpg");}
+    /*75% {background-image: url("616.jpg");}*/
+    /*100% {background-image: url("615.jpg");}*/
+}
+ .header{
+ 	text-align: center;
+ }
+  h4{
+  	margin-bottom: 0px;
+  }
+
+  hr{
+    border-color: white;
+  }
+
+  h2{
+  	border-left: 5px solid white;
+  	 padding-left: 5px;
+  }
+  .info{
+  	float: right;
+  }
+  
+  i{
+  	padding-left: 10px;
+  	float: right;
+  }
+  img{
+  	height: 120px;
+  	width: 120px;
+  	border-radius: 350%;
+  }
+
+  p{
+  	text-align: justify;
+  }
+
+@keyframes example {
+    0% {color: black;}
+    25% {color: blue;}
+    50% {color: red;}
+    75% {color: green;}
+    100% {color: blue;}
+}
+
+/* The element to apply the animation to */
+i {
+    
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.tt{
+	height: 40px;
+	width: 40px;
+}
