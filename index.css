@@ -1,72 +1,144 @@
 body{
-	border: 1px solid white;
-	padding: 20px;
-	max-width: 700px;
-	width: 80%;
-	margin: 20px auto;
-	font-family: Source Sans Pro;
-	/*background-image: url("image.jpg");*/
-	background-size: cover;
-	animation-name: Background;
-    animation-duration: 15s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    animation-direction: alternate;
+  background-image: url("me.jpeg");
+ background-size: cover;
+  padding-top: 30px; 
+ /*background-position: center;*/
 }
 
-@keyframes Background {
-    0% {background-image: url("image.jpg");}
-    50% {background-image: url("check.jpg");}
-    100% {background-image: url("613.jpg");}
-    /*75% {background-image: url("616.jpg");}*/
-    /*100% {background-image: url("615.jpg");}*/
-}
- .header{
- 	text-align: center;
- }
-  h4{
-  	margin-bottom: 0px;
-  }
-
-  h2{
-  	border-left: 5px solid white;
-  	 padding-left: 5px;
-  }
-  .info{
-  	float: right;
-  }
-  
-  i{
-  	padding-left: 10px;
-  	float: right;
-  }
-  img{
-  	height: 120px;
-  	width: 120px;
-  	border-radius: 350%;
-  }
-
-  p{
-  	text-align: justify;
-  }
-
-@keyframes example {
-    0% {color: black;}
-    25% {color: blue;}
-    50% {color: red;}
-    75% {color: green;}
-    100% {color: blue;}
+#txt{
+  color: black;
 }
 
-/* The element to apply the animation to */
-i {
-    
-    animation-name: example;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: "Lato";
+    color: white;
 }
 
-.tt{
-	height: 40px;
-	width: 40px;
+h1 {
+	font-weight: 700;
+	font-size: 5em;
 }
+
+#y{
+  color:#07013C;
+}
+
+.content{
+	padding-top: 25%;
+	text-align: center;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+a{
+  color: #07013C;
+}
+
+hr {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+#content{
+	text-align: center;
+	padding-top: 25%
+}
+
+
+
+
+
+
+.card1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 0 29%;
+    text-align: center;
+    background: gray;
+}
+
+#coninfo{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 5% auto;
+    text-align: center;
+    background: gray;
+    color: black;
+}
+
+.title {
+    color: grey;
+    font-size: 18px;
+}
+
+.cardB {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.cardBB {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+#cardA {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+#cardB:hover, #cardA:hover {
+    opacity: 0.7;
+}
+
+.card2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 0 23%;
+    text-align: center;
+    background: gray;
+    text-align: center;
+}
+
+html,body {
+    height: 100%;
+}
+
+
+
+
+.clock {
+    position: absolute;
+    top: 15%;
+    right:0px;
+    transform: translateX(-50%) translateY(-50%);
+    color: #07013C;
+    font-size: 35px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+
+
+}
+
+
+

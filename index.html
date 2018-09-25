@@ -1,152 +1,123 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Personal Page</title>
-	<link rel="stylesheet" type="text/css" href="index.css">
-	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-</head>
-<body>
+  <head>
 
-	<div class="header">	
-		<h1>	
-			Hafiz Muhammad Anas
-		</h1> 
-	</div>
-	<img src="n22.jpg">
-	<div class="info">
-		<em>
-			<i class="fas fa-envelope"></i> l164042@lhr.nu.edu.pk
-		</em>
-			<br>
-		<em>
-			<i class="fas fa-mobile-alt"></i> 0334-8194867
-		</em>
-			<br>
-		<em>
-			<i class="fas fa-map-marker-alt"></i>Lahore
-		</em>
-		
-	</div>
-	<p>
-		I am interested in seeking a challenging and growth oriented position with professionally manage organization, where I can utilize my
-		skills, contribute as a vital asset by cultivating my full potential and support the organization to achieve its corporate goals with
-		innovations more effectively within the stipulated time with sincere commitment to excellence.
-	</p>
-	<h2>
-		<strong >
-			EDUCATION
-		</strong>
-	</h2>
+  	 <title>Anas Resume</title>
+  	 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  	 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  	 <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+     <link rel="stylesheet" type="text/css" href="index.css">
+    <script>
+        function startTime()
+         {
+            var today = new Date();
+            var h = today.getHours();
+            var m = today.getMinutes();
+            var s = today.getSeconds();
+            m = checkTime(m);
+            s = checkTime(s);
+            document.getElementById('txt').innerHTML =
+            h + ":" + m + ":" + s;
+            var t = setTimeout(startTime, 500);
+        }
+        function checkTime(i) 
+        {
+            if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+            return i;
+        }
+  </script>
+  </head>
+  <body>
 
-	<ul>
-		<li>
-			<h4>
-				Doing BS Computer Science
-			</h4> 
-			Fast NUCES, Lahore
-		</li>
 
-		<li>
-			<h4>
-				Intermediate
-			</h4> 
-			    Concordia College, Lahore
-		</li>
-		<li>
-			<h4>
-				Matriculation 
-			</h4> 
-			    Garrison Academy, Lahore
-		</li>
+   <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" 
+                aria-expanded="false"aria-controls="navbar">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="Cv.html" style="color: #07013C; font-weight: bold;">Anas's Resume</a>
+      </div>
+      <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active">
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#about" id="abt">About</a>
+            </li>
+            <li>
+              <a href="#contact" id="cont">Profile</a>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#">Signup  
+                <i class="fa fa-user-plus"></i></a>
+            </li>
+            <li>
+              <a href="#about">Login<i class="fa fa-user"></i></a>
+            </li>
+          </ul>
+      </div>
+    </div>
+   </nav>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-	</ul>
-	<h2>
-		<strong >
-			Work Experience
-		</strong>
-	</h2>
 
-	<ul>
-		<li>
-			<h4>
-				Interee developer
-			</h4> 
-			 4 Pillar Technology
-		        
-		</li>
 
-		<li>
-			<h4>
-				Organizer at AIF
-			</h4> 
-			   Al Insan Foundation
-		</li>
+    <div class="card1">
+      <h2>Hafiz Muhammad Anas</h1>
+      <p>Fast University</p>
+      <a id="cardA" href="#"><i class="fa fa-dribbble"></i></a> 
+      <a id="cardA" href="#"><i class="fa fa-twitter"></i></a> 
+      <a id="cardA" href="#"><i class="fa fa-linkedin"></i></a> 
+      <a id="cardA" href="#"><i class="fa fa-facebook"></i></a> 
+      <p><button class="cardB">Contact</button></p>
+      <div id="coninfo">
+          <form action="/action_page.php">
+            First name:<br>
+            <input type="text" name="firstname" required="required"><br>
+            Last name:<br>
+            <input type="text" name="lastname" required="required"><br>
+            Email:<br>
+            <input type="email" name="Email" required="required"><br>
+            Description:<br>
+            <input type="text" name="Description">
+            <br><br>
+            <input class="cardBB" type="submit" value="Submit">
+          </form>
+      </div>
+    </div>
+    <div id="MyClockDisplay" class="clock"></div>
+    <div class="card2">
+      <h3>Hey! Hope you are well. <br>
+      This basic personal site is for just sharing my inforamtion/resume to you. <br>
+      Hope you enjoy using this site. <br>
+      See you soon!  </h2>
+    </div>
+   <div class="container">
+   	<div class="row">
+   		<div class="col-lg-12">
+   			<div class="content">
+   				<h1> <span id="y">Hello</span> I'm Anas</h1>
+   				<h3>Welcome To My Perosnal Site</h3>
+   				<hr>
+   				<button class="btn btn-default btn-lg"><i class="fa fa-paw fa-fw"></i> <a href="Cv.html">See Resume!</a> </button>
+   			</div>
+   		</div>
+   	</div>
+   </div>
+ 
+   <!--  -->
 
-		<li>
-			<h4>
-				Logo Designer
-			</h4> 
-			    Fiver.com
-		</li>
-	</ul>
-		<h2>
-			<strong >
-				Skills
-			</strong>
-		</h2>
+   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
+   <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
-	<ul>
-		<li>Total Quality Management</li>
-		<li>Decision Making</li>
-		<li>Programming</li>
-		<li>Team leadership</li>
-		<li>Communication</li>
-		<li>Passionate</li>
-	</ul>
-	<div>
-		<h2>
-			<strong >
-				Technical skills
-			</strong>
-		</h2>
-
-		<ul>
-			<li>C++</li>
-			<li>Assembly</li>
-			<li>Javascript</li>
-			<li>Inkscape</li>
-			<li>Symphony</li>
-			<li>C language</li>
-		</ul>
-
-		<h2><strong >Projects</strong></h2>
-
-		<ul>
-			<li>Brick Breaker Game in Assembly Language</li>
-			<li>Development of CHESS Game</li>
-			<li>Creation Of Complete Notepad</li>
-			<li>Paint Brush Program</li>
-			<li>Database Student Management System</li>
-			<li>Josephus Killing Problem Game</li>
-		</ul>
-
-		<h2>
-			<strong >
-				Co-Curricular Activities
-			</strong>
-		</h2>
-
-		<ul>
-			<li>Softec- Infrastructure Team</li>
-			<li>AIF- Organizer</li>
-			
-			
-		</ul>
-	</div>
-	<div>
-		contact for more information <img class="tt" src="f.jpg">  <img class="tt" src="in.jpg">  <img class="tt" src="tv.png">
-	</div>
-	
-</body>
+   <script type="text/javascript" src="index.js"></script>
+  </body>
 </html>
